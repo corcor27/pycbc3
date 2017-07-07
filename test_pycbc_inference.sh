@@ -22,12 +22,12 @@ INJ_F_MIN=20.
 TAPER="start"
 
 # Spin parameters
-MIN_SPIN1=0.0
-MAX_SPIN1=0.0
+#MIN_SPIN1=0.0
+#MAX_SPIN1=0.0
 #MIN_KAPPA1=1.0
 #MAX_KAPPA1=1.0
-MIN_SPIN2=0.0
-MAX_SPIN2=0.0
+#MIN_SPIN2=0.0
+#MAX_SPIN2=0.0
 #MIN_KAPPA2=0.0
 #MAX_KAPPA2=1.0
 
@@ -90,10 +90,10 @@ lalapps_inspinj \
     --fixed-mass2 ${MASS2} \
     --taper-injection ${TAPER} \
     --enable-spin \
-    --min-spin1 ${MIN_SPIN1} \
-    --max-spin1 ${MAX_SPIN1} \
-    --min-spin2 ${MIN_SPIN2} \
-    --max-spin2 ${MAX_SPIN2} \
+    #--min-spin1 ${MIN_SPIN1} \
+    #--max-spin1 ${MAX_SPIN1} \
+    #--min-spin2 ${MIN_SPIN2} \
+    #--max-spin2 ${MAX_SPIN2} \
     #--min-kappa1 ${MIN_KAPPA1} \
     #--max-kappa1 ${MAX_KAPPA1} \
 
