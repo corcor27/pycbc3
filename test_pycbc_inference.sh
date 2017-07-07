@@ -24,12 +24,12 @@ TAPER="start"
 # Spin parameters
 MIN_SPIN1=0.0
 MAX_SPIN1=0.0
-MIN_KAPPA1=0.0
-MAX_KAPPA1=0.0
+MIN_KAPPA1=1.0
+MAX_KAPPA1=1.0
 MIN_SPIN2=0.0
 MAX_SPIN2=0.0
-MIN_KAPPA2=0.0
-MAX_KAPPA2=0.0
+MIN_KAPPA2=1.0
+MAX_KAPPA2=1.0
 
 # path of injection file that will be created in the example
 INJ_PATH=${NAMEDIR}/injection.xml.gz
