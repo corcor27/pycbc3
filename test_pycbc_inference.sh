@@ -22,14 +22,14 @@ INJ_F_MIN=20.
 TAPER="start"
 
 # Spin parameters
-#MIN_SPIN1=0.0
-#MAX_SPIN1=0.0
-#MIN_KAPPA1=1.0
-#MAX_KAPPA1=1.0
-#MIN_SPIN2=0.0
-#MAX_SPIN2=0.0
-#MIN_KAPPA2=0.0
-#MAX_KAPPA2=1.0
+MIN_SPIN1=0.0
+MAX_SPIN1=0.0
+MIN_KAPPA1=1.0
+MAX_KAPPA1=1.0
+MIN_SPIN2=0.0
+MAX_SPIN2=0.0
+MIN_KAPPA2=0.0
+MAX_KAPPA2=1.0
 
 # path of injection file that will be created in the example
 INJ_PATH=${NAMEDIR}/injection.xml.gz
@@ -90,12 +90,12 @@ lalapps_inspinj \
     --fixed-mass2 ${MASS2} \
     --taper-injection ${TAPER} \
     --enable-spin \
-    #--min-spin1 ${MIN_SPIN1} \
-    #--max-spin1 ${MAX_SPIN1} \
-    #--min-spin2 ${MIN_SPIN2} \
-    #--max-spin2 ${MAX_SPIN2} \
-    #--min-kappa1 ${MIN_KAPPA1} \
-    #--max-kappa1 ${MAX_KAPPA1} \
+    --min-spin1 ${MIN_SPIN1} \
+    --max-spin1 ${MAX_SPIN1} \
+    --min-spin2 ${MIN_SPIN2} \
+    --max-spin2 ${MAX_SPIN2} \
+    --min-kappa1 ${MIN_KAPPA1} \
+    --max-kappa1 ${MAX_KAPPA1} \
 
 # Output parameters as text file
 printf "Injection approximant = ${INJ_APPROX} \n" > ${PAR}
