@@ -7,9 +7,9 @@ PAR=${NAMEDIR}/parameters.txt
 
 # define coalescence time, observed masses, and waveform parameters
 TRIGGER_TIME=1126259462.0
-INJ_APPROX=IMRPhenomDthreePointFivePN
-MASS1=45.
-MASS2=5.
+INJ_APPROX=IMRPhenomPv2threePointFivePN
+MASS1=80.
+MASS2=10.
 RA=2.21535724066
 DEC=-1.23649695537
 THETA_JN=2.7  ### <<---- this parameter is no longer relevant
@@ -22,14 +22,14 @@ INJ_F_MIN=20.
 TAPER="start"
 
 # Spin parameters
-MIN_SPIN1=0.0
-MAX_SPIN1=0.0
-MIN_KAPPA1=1.0
-MAX_KAPPA1=1.0
+MIN_SPIN1=0.75
+MAX_SPIN1=0.75
+MIN_KAPPA1=0.0
+MAX_KAPPA1=0.0
 MIN_SPIN2=0.0
 MAX_SPIN2=0.0
 MIN_KAPPA2=0.0
-MAX_KAPPA2=1.0
+MAX_KAPPA2=0.0
 
 # path of injection file that will be created in the example
 INJ_PATH=${NAMEDIR}/injection.xml.gz
